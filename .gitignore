@@ -1,0 +1,48 @@
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.dcm
+*.npy
+
+# Model checkpoints / weights
+*.pth
+*.h5
+*.pt
+*.ckpt
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+
+# Experiment tracking
+wandb/
+runs/
+lightning_logs/
+tensorboard_logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Environments
+venv/
+env/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Gradio / HF
+flagged/
+gradio_cached_examples/
